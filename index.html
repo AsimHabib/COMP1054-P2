@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Project #2 - Product Page </title>	
+	
+  <style>
+		@import url("css/bootstrap.min.css");
+		@import url("css/font-awesome-min.css");
+		@import url("css/stylesheet.css");
+	</style>  
+</head>
+<body class="">
+
+<!-- HEADER STARTS -->
+<header>
+<div class="container top">
+	<div class="row">
+		<div class="col-sm-4">
+			<div id="logo">
+			<a href="/"><img src="img/logo.png" title="Your Store" alt="Your Store" class="img-responsive"></a>
+			</div>
+		</div>
+	<div class="col-sm-5">
+		<div id="search" class="input-group">
+			<input name="search" placeholder="Search" class="form-control input-lg" type="text">
+			<span class="input-group-btn">
+			<button type="button" class="btn btn-default btn-lg"><i class="fa fa-search"></i></button>
+			</span>
+		</div> 
+	</div>
+	<div class="col-sm-3">
+		<div id="cart" class="btn-group btn-block">
+			<button type="button" data-toggle="dropdown" data-loading-text="Loading..." class="btn btn-inverse btn-block btn-lg dropdown-toggle">
+				<i class="fa fa-shopping-cart"></i>
+				<span id="cart-total">0 item(s) - $0.00</span>
+			</button>
+			<ul class="dropdown-menu pull-right">
+				<li>
+					<p class="text-center">Your shopping cart is empty!</p>
+				</li>
+			</ul>
+		</div>
+	</div>
+	</div>
+</div> <!-- end of container -->
+</header>
+<!-- MENU STARTS -->
+<div class="container">
+	<nav id="menu" class="navbar">
+		<div class="navbar-header"><span id="sm-screen" class="visible-xs">Menu</span>
+			<button type="button" class="btn btn-navbar navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+				<i class="fa fa-bars"></i>
+			</button>
+		</div>
+		<div class="collapse navbar-collapse navbar-ex1-collapse">
+			<ul class="nav navbar-nav">
+				<li class="dropdown"><a href="#">Home</a></li>
+				<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Products</a>
+					<div style="" class="dropdown-menu">
+						<div class="dropdown-inner">
+							<ul class="list-unstyled">
+							<li><a href="#">Product 1</a></li>
+							<li><a href="#">Product 2</a></li>
+							<li><a href="#">Product 3</a></li>
+							<li><a href="#">Product 4</a></li>
+							<li><a href="#">Product 5</a></li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="dropdown"><a href="#">Services</a></li>
+				<li class="dropdown"><a href="#">FAQ's</a></li>
+				<li class="dropdown"><a href="#">Contact</a></li>
+			</ul>
+		</div>
+	</nav> 
+</div>
+<div class="container">
+	<div class="row"> 
+		<div id="content" class="col-sm-12">
+			<div class="row">
+				<div class="col-sm-8">
+					<ul class="thumbnails">
+						<li><a class="thumbnail" href="#" title="red tshirt"><img src="img/red_tshirt.jpg" title="red tshirt" alt="red tshirt"></a></li>
+						<li class="image-additional"><a class="thumbnail" href="#" title="blue shirt"> <img src="img/blue_tshirt.jpg" title="blue tshirt" alt="blue tshirt"></a></li>
+						<li class="image-additional"><a class="thumbnail" href="#" title="green shirt"> <img src="img/green_tshirt.jpg" title="green tshirt" alt="green tshirt"></a></li>
+					</ul>
+					<ul class="nav nav-tabs">
+						<li class="active"><a href="#tab-description" data-toggle="tab">Description</a></li>
+						<li class=""><a href="#tab-review" data-toggle="tab">Reviews (3)</a></li>
+					</ul>
+					<div class="tab-content">
+						<div class="tab-pane active" id="tab-description">
+							<ul>
+								<li>95% Cotton, 5% Spandex</li>
+								<li>Imported</li>
+								<li>Machine Wash</li>
+								<li>Casual crew-neck styling. Short sleeves; pocket at chest</li>
+								<li>A classic fit keeps things comfortable and timeless</li>
+							</ul>
+						<p>One of the most necessary styles for any guy's wardrobe, this classic fit t-shirt is crafted from soft cotton with a hint of stretch for a flexible, clean-lined finish. Grab one in every color.The Polo Ralph Lauren Classic Fit T-Shirt is a must have for every man's wardrobe. This shirt features a crew neck, classic fit, short sleeves, and the Ralph Lauren polo logo on the left chest in contrasting colors. Made of 100% cotton and machine washable.</p>	
+						</div>
+						<div class="tab-pane" id="tab-review">
+							<form class="form-horizontal">
+								<div id="review">
+									<h3>Comfortable, and fit as expected</h3>
+									<p>By Gary F. Zeolla on <span class="date">April 22, 2015</span></p>
+									<p>I wear pocket T-shirts all of the time in the summer, both around my home and when going out, but I needed new ones. 
+									I found these on Amazon at a reasonable price. The description said "colors may vary" so I didn't really take notice of what colors 
+									were pictured. As it turned out, I got just what was pictured: one each of red, green, grey, and black. 
+									If I had know this I would have ordered two of these. But instead, 
+									I ordered of these and one of Fruit of the Loom Men's Four-Pack Pocket Tee . 
+									The colors in that package were all rather strange and not as pictured. So get this pack if you like these colors.</p>
+									
+									<h3>Great T Shirts</h3>
+									<p>By Bumbble Bee on <span class="date">July 11, 2015</span></p>
+									<p>Extremely comfortable shirts at just the right weight to not to hot or cold to wear. I have had these before and they hold up for a long time if cared for correctly. The only thing I was a little disappointed in was when I ordered they were suppose to be 2 black and 2 gray shirts, instead I got all 4 colors. I can live with the 4 colors, they are great shirts.</p>
+									
+									
+									<h3>Good for the price</h3>
+									<p>By J. James on <span class="date">May 23, 2015</span></p>
+									<p>These are great for my job, The pocket holds my pen and tablet perfectly. They are really comfortable. They wash up great and have had no problem with shrinkage.</p>
+								</div>
+								<h2>Write a review</h2>
+								<div class="form-group required">
+									<div class="col-sm-12">
+										<label class="control-label" for="input-name">Your Name</label>
+										<input name="name" id="input-name" class="form-control" type="text">
+									</div>
+								</div>
+								<div class="form-group required">
+									<div class="col-sm-12">
+										<label class="control-label" for="input-review">Your Review</label>
+										<textarea name="text" rows="5" id="input-review" class="form-control"></textarea>
+									</div>
+								</div>
+								<div class="form-group required">
+									<div class="col-sm-12">
+										<label class="control-label">Rating</label>
+										&nbsp;&nbsp;&nbsp; Bad&nbsp;
+										<input name="rating" value="1" type="radio">
+										&nbsp;
+										<input name="rating" value="2" type="radio">
+										&nbsp;
+										<input name="rating" value="3" type="radio">
+										&nbsp;
+										<input name="rating" value="4" type="radio">
+										&nbsp;
+										<input name="rating" value="5" type="radio">
+										&nbsp;Good
+									</div>
+								</div>
+								<div class="buttons">
+									<div class="pull-right">
+										<button type="button" id="button-review" data-loading-text="Loading..." class="btn btn-primary">Continue</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">			
+					<h1>Double Duty T Shirt</h1>
+					<ul class="list-unstyled">
+						<li>Brand:Polo Ralph Lauren</li>
+						<li>Product Code: Product 3</li>
+						<li>Availability: In Stock</li>
+					</ul>
+					<ul class="list-unstyled">
+						<li><span style="text-decoration: line-through;">was $122.00</span></li>
+						<li>
+						<h2>Price: $98.00</h2>
+						</li>
+					</ul>
+					<div id="product">
+					<hr>
+						<h3>Available Options</h3>
+						<div class="form-group required">
+							<label class="control-label" for="input-option226">Select Size</label>
+							<select name="option[226]" id="input-option226" class="form-control">
+								<option selected="selected" value=""> --- Large --- </option>
+								<option selected="selected" value=""> --- Medium --- </option>
+								<option selected="selected" value=""> --- Small --- </option>
+							</select>
+						</div>
+
+						<div class="form-group required">
+							<label class="control-label" for="input-option226">Select Color</label>
+							<select name="option[226]" id="input-option226" class="form-control">
+								<option selected="selected" value=""> --- Red --- </option>
+								<option selected="selected" value=""> --- Blue --- </option>
+								<option selected="selected" value=""> --- Green --- </option>
+							</select>
+						</div>
+
+						<div class="form-group">
+							<label class="control-label" for="input-quantity">Qty</label>
+							<input name="quantity" value="1" size="2" id="input-quantity" class="form-control" type="text">
+							<input name="product_id" value="30" type="hidden">
+							<br>
+							<button type="button" id="button-cart" data-loading-text="Loading..." class="btn btn-primary btn-lg btn-block">Add to Cart</button>
+						</div>
+				</div>
+					<div class="rating">
+						<p>
+						<span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
+						<span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
+						<span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
+						<span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
+						<span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
+						<a href="">3 reviews</a> / <a href="">Write a review</a>
+						</p>
+						<hr>					 
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- REALTED PRODUCTS -->
+<h3>Related Products</h3>
+<div class="row">
+	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+		<div class="product-thumb transition">
+		<div class="image">
+			<a href="#"><img src="img/champion1.jpg" alt="champion" title="champion" width="100" class="img-responsive"/></a>
+		</div>
+		<div class="caption">
+			<h4><a href="#">Champion Jersey</a></h4>
+			<p>The Champion Jersey Tee - the ultimate in comfort and durability...</p>
+			<p class="price">$23.20</p>
+		</div>
+		<div class="button-group">
+			<button type="button"><span class="hidden-xs hidden-sm hidden-md">Add to Cart</span> <i class="fa fa-shopping-cart"></i></button>
+			<button type="button" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart"></i></button>
+			<button type="button" data-toggle="tooltip" title="Compare this Product" ><i class="fa fa-exchange"></i></button>
+		</div>
+		</div>
+	</div>
+	<div class="clearfix visible-md"></div>
+	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+		<div class="product-thumb transition">
+			<div class="image">
+				<a href="#"><img src="img/grey02.jpg" alt="iMac" title="champion" width="100" class="img-responsive"/></a>
+				</div>
+			<div class="caption">
+				<h4><a href="#">Basic crewneck short sleeve</a></h4>
+				<p>REGNA X is An Online-based Brand to Offer Good Quality Products at Affordable Prices...</p>
+				<p class="price">$32.00</p>
+			</div>
+			<div class="button-group">
+				<button type="button" ><span class="hidden-xs hidden-sm hidden-md">Add to Cart</span> <i class="fa fa-shopping-cart"></i></button>
+				<button type="button" data-toggle="tooltip" title="Add to Wish List"><i class="fa fa-heart"></i></button>
+				<button type="button" data-toggle="tooltip" title="Compare this Product"><i class="fa fa-exchange"></i></button>
+			</div>
+		</div>
+	</div>
+</div>
+</div><!-- end of container -->
+<!-- FOOTER STARTS HERE -->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3">
+					<h5>Information</h5>
+					<ul class="list-unstyled">
+						<li><a href="#">About Us</a></li>
+						<li><a href="">Delivery Information</a></li>
+						<li><a href="">Privacy Policy</a></li>
+						<li><a href="">Terms &amp; Conditions</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-3">
+					<h5>Customer Service</h5>
+					<ul class="list-unstyled">
+						<li><a href="">Contact Us</a></li>
+						<li><a href="">Returns</a></li>
+						<li><a href="">Site Map</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-3">
+					<h5>Extras</h5>
+					<ul class="list-unstyled">
+						<li><a href="">Brands</a></li>
+						<li><a href="">Gift Vouchers</a></li>
+						<li><a href="">Affiliates</a></li>
+						<li><a href="">Specials</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-3">
+					<h5>My Account</h5>
+					<ul class="list-unstyled">
+						<li><a href="">My Account</a></li>
+						<li><a href="">Order History</a></li>
+						<li><a href="">Wish List</a></li>
+						<li><a href="">Newsletter</a></li>
+					</ul>
+				</div>
+			</div>
+		<hr>
+		<p>Your Store © 2016</p>
+		</div>
+	</footer>
+	<a href="#" class="scrollToTop"></a>
+	<!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> -->
+  
+  <script src="js/jquery.min.js"></script> 
+  <script src="js/bootstrap.min.js"></script> 
+  <script src="js/script.js"></script>
+</body>
+</html>
